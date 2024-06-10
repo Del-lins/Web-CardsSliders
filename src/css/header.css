@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.header h1 {
+  color: #f1ecff;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+.header .navBar ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header .navBar ul li a i {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.header .navBar ul li a i:hover {
+  color: rgb(8, 8, 126);
+}

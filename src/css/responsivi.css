@@ -1,0 +1,28 @@
+@media (max-width: 620px) {
+  .header {
+    padding: 30px 5px;
+  }
+
+  .header h1 {
+    transform: translateX(90px);
+  }
+
+  .navBar {
+    transform: translate(-90px, 600px);
+  }
+
+  .personagens-sliders {
+    padding: 0 15px;
+    gap: 10px;
+  }
+
+  .btn-seta {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+
+  .lista-personagens {
+    height: 480px;
+  }
+}
